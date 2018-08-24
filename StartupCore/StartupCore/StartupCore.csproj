@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />  
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\">
@@ -30,6 +32,18 @@
     </Folder>
     <Folder Include="Contracts\Services\General\">
       <DependentUpon>General</DependentUpon>
+    </Folder>
+    <Folder Include="Services\Data\">
+      <DependentUpon>Data</DependentUpon>
+    </Folder>
+    <Folder Include="Services\General\">
+      <DependentUpon>General</DependentUpon>
+    </Folder>
+    <Folder Include="Utility\">
+      <DependentUpon>Utility</DependentUpon>
+    </Folder>
+    <Folder Include="Extensions\">
+      <DependentUpon>Extensions</DependentUpon>
     </Folder>
   </ItemGroup>
   <ItemGroup>
