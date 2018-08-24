@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyDiary.Android PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyDiary/Contracts/Services/General/IConnectionService.cs">
+    <Files>
+      <File FileName="MyDiary/Constants/ApiConstants.cs" Line="10" Column="1" />
+      <File FileName="MyDiary/Contracts/Services/General/IConnectionService.cs" Line="3" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MyDiary FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/MyDiary/MyDiary/Views/ItemsPage.xaml.cs" relfile="MyDiary/Views/ItemsPage.xaml.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyDiary.iOS FirstBuild="True" />
+</Properties>
