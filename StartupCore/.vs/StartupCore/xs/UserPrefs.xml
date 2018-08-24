@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/Views/ItemsPage.xaml">
+    <Files>
+      <File FileName="StartupCore/Views/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="StartupCore/Views/MainPage.xaml" Line="25" Column="20" />
+      <File FileName="StartupCore/Constants/ApiConstants.cs" Line="8" Column="9" />
+      <File FileName="StartupCore/Contracts/Repository/IGenericRepository.cs" Line="8" Column="10" />
+      <File FileName="StartupCore/Contracts/Services/Data/IAuthenticationService.cs" Line="16" Column="1" />
+      <File FileName="StartupCore/Views/ItemsPage.xaml" Line="54" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StartupCore.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Contracts/Services/Data/IAuthenticationService.cs" relfile="StartupCore/Contracts/Services/Data/IAuthenticationService.cs" line="8" column="23" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StartupCore.Android PreferredExecutionTarget="Android.192.168.56.101:5555" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
