@@ -18,6 +18,7 @@
     <PackageReference Include="Acr.UserDialogs" Version="7.0.1" />
     <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
     <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="akavache" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\">
