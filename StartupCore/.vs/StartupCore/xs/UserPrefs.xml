@@ -1,10 +1,16 @@
 ﻿<Properties StartupConfiguration="{37D41B6E-08A0-4F85-927C-A509BD5CA93F}|Default">
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/Models/BooksModels/BooksResponse.cs">
+    <Files>
+      <File FileName="StartupCore/Repository/GenericRepository.cs" Line="187" Column="18" />
+      <File FileName="StartupCore/Exceptions/HttpRequestExceptionEx.cs" Line="7" Column="51" />
+      <File FileName="StartupCore/Exceptions/ServiceAuthenticationException.cs" Line="8" Column="10" />
+      <File FileName="StartupCore/Constants/ApiConstants.cs" Line="15" Column="9" />
+      <File FileName="StartupCore/Models/BooksModels/ICategoryContent.cs" Line="4" Column="45" />
+      <File FileName="StartupCore/Models/BooksModels/IEntity.cs" Line="7" Column="9" />
+      <File FileName="StartupCore/Models/BooksModels/IBooklist.cs" Line="9" Column="21" />
+      <File FileName="StartupCore/Models/BooksModels/Booklist.cs" Line="14" Column="8" />
+      <File FileName="StartupCore/Models/BooksModels/BooksResponse.cs" Line="1" Column="1" />
+    </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StartupCore.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FF0FA9F-427C-473D-8E05-1C4173EF1A31" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

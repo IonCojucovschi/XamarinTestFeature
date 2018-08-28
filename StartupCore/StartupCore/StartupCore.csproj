@@ -17,6 +17,7 @@
     <PackageReference Include="Polly" Version="6.1.0" />
     <PackageReference Include="Acr.UserDialogs" Version="7.0.1" />
     <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\">
@@ -51,6 +52,15 @@
     </Folder>
     <Folder Include="ViewModels\Base\">
       <DependentUpon>Base</DependentUpon>
+    </Folder>
+    <Folder Include="Repository\">
+      <DependentUpon>Repository</DependentUpon>
+    </Folder>
+    <Folder Include="Exceptions\">
+      <DependentUpon>Exceptions</DependentUpon>
+    </Folder>
+    <Folder Include="Models\BooksModels\">
+      <DependentUpon>BooksModels</DependentUpon>
     </Folder>
   </ItemGroup>
   <ItemGroup>
