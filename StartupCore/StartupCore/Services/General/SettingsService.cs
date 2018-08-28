@@ -1,4 +1,8 @@
 ﻿using System;
+using Plugin.Settings;
+using Plugin.Settings.Abstractions;
+using StartupCore.Contracts.Services.General;
+
 namespace StartupCore.Services.General
 {
     public class SettingsService : ISettingsService
