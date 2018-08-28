@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{37D41B6E-08A0-4F85-927C-A509BD5CA93F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/Contracts/Repository/IGenericRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/Contracts/Services/Data/BaseService.cs">
     <Files>
       <File FileName="StartupCore/Repository/GenericRepository.cs" Line="187" Column="18" />
       <File FileName="StartupCore/Exceptions/HttpRequestExceptionEx.cs" Line="7" Column="51" />
       <File FileName="StartupCore/Exceptions/ServiceAuthenticationException.cs" Line="8" Column="10" />
       <File FileName="StartupCore/Constants/ApiConstants.cs" Line="15" Column="1" />
       <File FileName="StartupCore/Models/BooksModels/ICategoryContent.cs" Line="4" Column="45" />
-      <File FileName="StartupCore/Models/BooksModels/IEntity.cs" Line="7" Column="9" />
+      <File FileName="StartupCore/Models/BooksModels/IEntity.cs" Line="7" Column="1" />
       <File FileName="StartupCore/Models/BooksModels/IBooklist.cs" Line="9" Column="21" />
       <File FileName="StartupCore/Models/BooksModels/Booklist.cs" Line="14" Column="8" />
       <File FileName="StartupCore/Models/BooksModels/BooksResponse.cs" Line="8" Column="1" />
-      <File FileName="StartupCore/Services/Data/BooksDataService.cs" Line="14" Column="45" />
-      <File FileName="StartupCore/Contracts/Services/Data/IBooksDataService.cs" Line="14" Column="35" />
-      <File FileName="StartupCore/Contracts/Services/Data/BaseService.cs" Line="35" Column="6" />
+      <File FileName="StartupCore/Services/Data/BooksDataService.cs" Line="18" Column="10" />
+      <File FileName="StartupCore/Contracts/Services/Data/IBooksDataService.cs" Line="9" Column="22" />
+      <File FileName="StartupCore/Contracts/Services/Data/BaseService.cs" Line="16" Column="10" />
       <File FileName="StartupCore/Contracts/Repository/IGenericRepository.cs" Line="6" Column="22" />
+      <File FileName="StartupCore/Services/Data/AuthenticationService.cs" Line="29" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StartupCore.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FF0FA9F-427C-473D-8E05-1C4173EF1A31" />

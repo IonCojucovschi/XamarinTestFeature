@@ -23,7 +23,7 @@ namespace StartupCore.Services.Data
         {
             UriBuilder builder = new UriBuilder(ApiConstants.BaseApi)
             {
-                Path = ApiConstants.FirstApi
+                Path = ApiConstants.PostLogin
             };
 
             AuthenticationRequest authenticationRequest = new AuthenticationRequest()

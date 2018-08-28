@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Akavache;
+using System.Reactive.Linq;
 using StartupCore.Models.BooksModels;
+using System.Collections.Generic;
 
 namespace StartupCore.Contracts.Services.Data
 {
@@ -20,6 +20,7 @@ namespace StartupCore.Contracts.Services.Data
             try
             {
                 T t = await Cache.GetObject<T>(cacheName);
+
                 return t;
             }
             catch (KeyNotFoundException)

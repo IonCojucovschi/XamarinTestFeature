@@ -25,7 +25,7 @@ namespace StartupCore.Services.Data
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<Booklist>> GetBooksForCategory(IGenericRepository genericRepository, IBlobCache cache = null):base(cache)
+        public async Task<IEnumerable<Booklist>> GetBooksForCategory()
         {
             UriBuilder builder = new UriBuilder(ApiConstants.BaseApi)
             {
