@@ -50,16 +50,12 @@
     <Folder Include="Models\BooksModels\">
     </Folder>
     <Folder Include="Bootstrap\">
-      <DependentUpon>Bootstrap</DependentUpon>
     </Folder>
     <Folder Include="Enumeration\">
-      <DependentUpon>Enumeration</DependentUpon>
     </Folder>
     <Folder Include="Behaviors\">
-      <DependentUpon>Behaviors</DependentUpon>
     </Folder>
     <Folder Include="Templates\">
-      <DependentUpon>Templates</DependentUpon>
     </Folder>
   </ItemGroup>
   <ItemGroup>

@@ -2,6 +2,9 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using StartupCore.Views;
+using System.Threading.Tasks;
+using StartupCore.Bootstrap;
+using StartupCore.Contracts.Services.General;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace StartupCore
@@ -13,9 +16,28 @@ namespace StartupCore
         {
             InitializeComponent();
 
+            InitializeApp();
+
+            InitializeNavigation();
 
             MainPage = new MainPage();
         }
+
+
+        private async Task InitializeNavigation()
+        {
+            var navigationService = AppContainer.Resolve<INavigationService>();
+            await navigationService.InitializeAsync();
+        }
+
+        private void InitializeApp()
+        {
+            AppContainer.RegisterDependencies();
+
+            ///implement messenger loginc wit sender,,,and ....
+
+        }
+
 
         protected override void OnStart()
         {
