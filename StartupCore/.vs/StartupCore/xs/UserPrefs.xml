@@ -1,20 +1,27 @@
-﻿<Properties StartupConfiguration="{37D41B6E-08A0-4F85-927C-A509BD5CA93F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/Contracts/Services/Data/BaseService.cs">
+﻿<Properties StartupConfiguration="{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/Bootstrap/AppContainer.cs">
     <Files>
-      <File FileName="StartupCore/Repository/GenericRepository.cs" Line="187" Column="18" />
-      <File FileName="StartupCore/Exceptions/HttpRequestExceptionEx.cs" Line="7" Column="51" />
-      <File FileName="StartupCore/Exceptions/ServiceAuthenticationException.cs" Line="8" Column="10" />
-      <File FileName="StartupCore/Constants/ApiConstants.cs" Line="15" Column="1" />
-      <File FileName="StartupCore/Models/BooksModels/ICategoryContent.cs" Line="4" Column="45" />
-      <File FileName="StartupCore/Models/BooksModels/IEntity.cs" Line="7" Column="1" />
-      <File FileName="StartupCore/Models/BooksModels/IBooklist.cs" Line="9" Column="21" />
-      <File FileName="StartupCore/Models/BooksModels/Booklist.cs" Line="14" Column="8" />
-      <File FileName="StartupCore/Models/BooksModels/BooksResponse.cs" Line="8" Column="1" />
-      <File FileName="StartupCore/Services/Data/BooksDataService.cs" Line="18" Column="10" />
-      <File FileName="StartupCore/Contracts/Services/Data/IBooksDataService.cs" Line="9" Column="22" />
-      <File FileName="StartupCore/Contracts/Services/Data/BaseService.cs" Line="16" Column="10" />
-      <File FileName="StartupCore/Contracts/Repository/IGenericRepository.cs" Line="6" Column="22" />
-      <File FileName="StartupCore/Services/Data/AuthenticationService.cs" Line="29" Column="46" />
+      <File FileName="StartupCore/Services/General/NavigationService.cs" Line="101" Column="48" />
+      <File FileName="StartupCore/Views/MainView.xaml.cs" Line="4" Column="11" />
+      <File FileName="StartupCore/ViewModels/MainViewModel.cs" Line="12" Column="67" />
+      <File FileName="StartupCore/ViewModels/MenuViewModel.cs" Line="13" Column="56" />
+      <File FileName="StartupCore/Enumeration/MenuItemType.cs" Line="10" Column="15" />
+      <File FileName="StartupCore/Models/MainMenuItem.cs" Line="22" Column="22" />
+      <File FileName="StartupCore/ViewModels/HomeViewModel.cs" Line="13" Column="42" />
+      <File FileName="StartupCore/Bootstrap/AppContainer.cs" Line="50" Column="35" />
+      <File FileName="StartupCore/Views/MainView.xaml" Line="12" Column="36" />
+      <File FileName="StartupCore/Views/StartupNavigationPage.xaml" Line="4" Column="56" />
+      <File FileName="StartupCore/Views/StartupNavigationPage.xaml.cs" Line="2" Column="26" />
+      <File FileName="StartupCore/Views/MenuView.xaml" Line="29" Column="56" />
+      <File FileName="StartupCore/Views/MenuView.xaml.cs" Line="1" Column="1" />
+      <File FileName="StartupCore/Views/RegistrationView.xaml" Line="5" Column="50" />
+      <File FileName="StartupCore/Views/RegistrationView.xaml.cs" Line="11" Column="10" />
+      <File FileName="StartupCore/Behaviors/BindableBehavior.cs" Line="2" Column="21" />
+      <File FileName="StartupCore/Behaviors/EventToCommandBehavior.xaml.cs" Line="1" Column="1" />
+      <File FileName="StartupCore/Behaviors/EventToCommandBehavior.cs" Line="12" Column="6" />
+      <File FileName="StartupCore/Behaviors/ItemTappedCommandListView.cs" Line="3" Column="1" />
+      <File FileName="StartupCore/Templates/MenuItemTemplate.xaml" Line="14" Column="39" />
+      <File FileName="StartupCore/Templates/MenuItemTemplate.xaml.cs" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StartupCore.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FF0FA9F-427C-473D-8E05-1C4173EF1A31" />
@@ -23,6 +30,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.StartupCore.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.StartupCore.Android PreferredExecutionTarget="Android.192.168.56.101:5555" />
   <MultiItemStartupConfigurations />
 </Properties>

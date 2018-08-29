@@ -22,46 +22,44 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\">
-      <DependentUpon>Constants</DependentUpon>
     </Folder>
     <Folder Include="Contracts\">
-      <DependentUpon>Contracts</DependentUpon>
     </Folder>
     <Folder Include="Contracts\Repository\">
-      <DependentUpon>Repository</DependentUpon>
     </Folder>
     <Folder Include="Contracts\Services\">
-      <DependentUpon>Services</DependentUpon>
     </Folder>
     <Folder Include="Contracts\Services\Data\">
-      <DependentUpon>Data</DependentUpon>
     </Folder>
     <Folder Include="Contracts\Services\General\">
-      <DependentUpon>General</DependentUpon>
     </Folder>
     <Folder Include="Services\Data\">
-      <DependentUpon>Data</DependentUpon>
     </Folder>
     <Folder Include="Services\General\">
-      <DependentUpon>General</DependentUpon>
     </Folder>
     <Folder Include="Utility\">
-      <DependentUpon>Utility</DependentUpon>
     </Folder>
     <Folder Include="Extensions\">
-      <DependentUpon>Extensions</DependentUpon>
     </Folder>
     <Folder Include="ViewModels\Base\">
-      <DependentUpon>Base</DependentUpon>
     </Folder>
     <Folder Include="Repository\">
-      <DependentUpon>Repository</DependentUpon>
     </Folder>
     <Folder Include="Exceptions\">
-      <DependentUpon>Exceptions</DependentUpon>
     </Folder>
     <Folder Include="Models\BooksModels\">
-      <DependentUpon>BooksModels</DependentUpon>
+    </Folder>
+    <Folder Include="Bootstrap\">
+      <DependentUpon>Bootstrap</DependentUpon>
+    </Folder>
+    <Folder Include="Enumeration\">
+      <DependentUpon>Enumeration</DependentUpon>
+    </Folder>
+    <Folder Include="Behaviors\">
+      <DependentUpon>Behaviors</DependentUpon>
+    </Folder>
+    <Folder Include="Templates\">
+      <DependentUpon>Templates</DependentUpon>
     </Folder>
   </ItemGroup>
   <ItemGroup>
