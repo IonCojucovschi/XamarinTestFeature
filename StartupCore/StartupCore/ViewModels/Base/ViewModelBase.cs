@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using StartupCore.Annotations;
 using StartupCore.Contracts.Services.General;
 
 namespace StartupCore.ViewModels.Base
@@ -34,7 +35,7 @@ namespace StartupCore.ViewModels.Base
             }
         }
 
-        //[NotifyPropertyChangedInvocator]
+        [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

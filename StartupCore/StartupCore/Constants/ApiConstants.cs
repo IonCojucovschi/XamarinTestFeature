@@ -4,7 +4,7 @@ namespace StartupCore.Constants
     public class ApiConstants
     {
         public const string BaseApi = "http://readabook.16mb.com/";
-        public const string PostLogin = "api/users/all/";
+        public const string PostLogin = "api/login/login/";
         public const string PostSetTokenDevice = "api/client/auth/set_token";
 
         ///books get

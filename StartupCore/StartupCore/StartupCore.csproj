@@ -61,4 +61,19 @@
   <ItemGroup>
     <None Remove="Constants\ApiConstants.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\MenuPage.xaml.cs" />
+    <Compile Remove="Views\MainPage.xaml.cs" />
+    <Compile Remove="Views\NewItemPage.xaml.cs" />
+    <Compile Remove="Views\ItemsPage.xaml.cs" />
+    <Compile Remove="Views\ItemDetailPage.xaml.cs" />
+    <Compile Remove="Views\AboutPage.xaml.cs" />
+    <Compile Remove="ViewModels\ItemsViewModel.cs" />
+    <Compile Remove="ViewModels\BaseViewModel.cs" />
+    <Compile Remove="ViewModels\AboutViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\MainPage.xaml" />
+    <EmbeddedResource Remove="Views\ItemDetailPage.xaml" />
+  </ItemGroup>
 </Project>

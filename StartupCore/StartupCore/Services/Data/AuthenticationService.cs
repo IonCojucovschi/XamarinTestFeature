@@ -19,7 +19,7 @@ namespace StartupCore.Services.Data
 
         }
 
-        public async Task<AuthenticationResponse> Register(string firstName, string lastName, string email, string userName, string password)
+        public async Task<AuthenticationResponse> Register(string firstName, string lastName, string email, string login, string password)
         {
             UriBuilder builder = new UriBuilder(ApiConstants.BaseApi)
             {
@@ -28,11 +28,13 @@ namespace StartupCore.Services.Data
 
             AuthenticationRequest authenticationRequest = new AuthenticationRequest()
             {
-                Email = email,
-                FirstName = firstName,
-                LastName = lastName,
-                UserName = userName,
-                Password = password
+                ///Email = email,
+                //FirstName = firstName,
+                //LastName = lastName,
+                //UserName = userName,
+                Password = password,
+                Login = login
+
             };
 
             return await _genericRepository.PostAsync<AuthenticationRequest, AuthenticationResponse>(builder.ToString(), authenticationRequest);
@@ -47,7 +49,7 @@ namespace StartupCore.Services.Data
         {
             UriBuilder builder = new UriBuilder(ApiConstants.BaseApi)
             {
-                Path = "somee"///ApiConstants.AuthenticateEndpoint
+                Path = ApiConstants.PostLogin
             };
 
 
@@ -56,8 +58,8 @@ namespace StartupCore.Services.Data
                 UserName = userName,
                 Password = password
             };
-
-            return await _genericRepository.PostAsync<AuthenticationRequest, AuthenticationResponse>(builder.ToString(), authenticationRequest);
+            string requestUrl = builder.ToString() + "admin/password/admin";
+            return await _genericRepository.PostAsync<AuthenticationRequest, AuthenticationResponse>(requestUrl, authenticationRequest);
         }
     }
 }

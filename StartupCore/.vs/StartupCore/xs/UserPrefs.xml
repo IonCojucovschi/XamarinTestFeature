@@ -1,28 +1,30 @@
 ﻿<Properties StartupConfiguration="{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StartupCore.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FF0FA9F-427C-473D-8E05-1C4173EF1A31" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="38" column="56" />
-      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/MainViewModel.cs" relfile="StartupCore/ViewModels/MainViewModel.cs" line="17" column="1" />
-      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/MainViewModel.cs" relfile="StartupCore/ViewModels/MainViewModel.cs" line="10" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="100" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/MenuViewModel.cs" relfile="StartupCore/ViewModels/MenuViewModel.cs" line="56" column="1" />
-      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/App.xaml.cs" relfile="StartupCore/App.xaml.cs" line="30" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="44" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="49" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="54" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="33" column="1" />
-      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="31" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore.Android/MainActivity.cs" relfile="StartupCore.Android/MainActivity.cs" line="28" column="1" />
-      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/MainViewModel.cs" relfile="StartupCore/ViewModels/MainViewModel.cs" line="20" column="1" />
-      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/MainViewModel.cs" relfile="StartupCore/ViewModels/MainViewModel.cs" line="35" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/HomeViewModel.cs" relfile="StartupCore/ViewModels/HomeViewModel.cs" line="16" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="104" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="112" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="145" column="18" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="133" column="1" />
+      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="102" column="1" />
+      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/MainViewModel.cs" relfile="StartupCore/ViewModels/MainViewModel.cs" line="32" column="27" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
