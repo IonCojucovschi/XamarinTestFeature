@@ -8,9 +8,10 @@
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
+<!--     to convert in some language    Converter={StaticResource Key}-->
             <Image 
                 Grid.Column="0"
-                Source="{Binding MenuItemType, Converter={StaticResource LocalMenuIconConverter}}"
+                Source="{Binding MenuItemType}"
                 WidthRequest="30" HeightRequest="30" VerticalOptions="Center"/>
             <Label Grid.Column="1" Text="{Binding MenuText}" VerticalOptions="Center"/>
         </Grid>
