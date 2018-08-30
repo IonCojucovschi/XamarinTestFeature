@@ -20,7 +20,7 @@ namespace StartupCore
 
             InitializeNavigation();
 
-            MainPage = new MainPage();
+            ///MainPage = new MainPage();
         }
 
 

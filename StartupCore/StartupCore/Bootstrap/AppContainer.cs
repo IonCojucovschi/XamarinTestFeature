@@ -11,9 +11,6 @@ namespace StartupCore.Bootstrap
 {
     public class AppContainer
     {
-        public AppContainer()
-        {
-        }
         private static IContainer _container;
 
         //register all dependencies in container using autofac dependency injection 
@@ -23,6 +20,9 @@ namespace StartupCore.Bootstrap
 
             //Register ViewModels 
             builder.RegisterType<AboutViewModel>();
+            builder.RegisterType<HomeViewModel>();
+            builder.RegisterType<MainViewModel>();
+            builder.RegisterType<MenuViewModel>();
 
 
 
@@ -33,7 +33,9 @@ namespace StartupCore.Bootstrap
             // register all services-general
             builder.RegisterType<AuthenticationService>().As<IAuthenticationService>();
             builder.RegisterType<NavigationService>().As<INavigationService>();
-
+            builder.RegisterType<DialogService>().As<IDialogService>();
+            builder.RegisterType<SettingsService>().As<ISettingsService>();
+            builder.RegisterType<ConnectionService>().As<IConnectionService>();
 
             //General 
             builder.RegisterType<GenericRepository>().As<IGenericRepository>();
@@ -45,9 +47,9 @@ namespace StartupCore.Bootstrap
         {
             return _container.Resolve(typeName);
         }
-		public static T Resolve<T>()
-		{
-			return _container.Resolve<T>();
-		}
+        public static T Resolve<T>()
+        {
+            return _container.Resolve<T>();
+        }
     }
 }

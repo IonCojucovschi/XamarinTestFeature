@@ -35,6 +35,7 @@ namespace StartupCore.Services.General
             else
             {
                 // await NavigateToAsync<LoginViewModel>();
+                await NavigateToAsync<MainViewModel>();
             }
         }
 
@@ -121,7 +122,7 @@ namespace StartupCore.Services.General
                 }
                 else
                 {
-					navigationPage = new StartupNavigationPage(page);
+                    navigationPage = new StartupNavigationPage(page);
                     mainPage.Detail = navigationPage;
                 }
 
