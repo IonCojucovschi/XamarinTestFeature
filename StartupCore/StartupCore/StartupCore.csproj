@@ -71,6 +71,7 @@
     <Compile Remove="ViewModels\ItemsViewModel.cs" />
     <Compile Remove="ViewModels\BaseViewModel.cs" />
     <Compile Remove="ViewModels\AboutViewModel.cs" />
+    <Compile Remove="ViewModels\ItemDetailViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\MainPage.xaml" />

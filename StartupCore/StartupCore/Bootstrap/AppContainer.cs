@@ -19,7 +19,6 @@ namespace StartupCore.Bootstrap
             var builder = new ContainerBuilder();
 
             //Register ViewModels 
-            builder.RegisterType<AboutViewModel>();
             builder.RegisterType<HomeViewModel>();
             builder.RegisterType<MainViewModel>();
             builder.RegisterType<MenuViewModel>();

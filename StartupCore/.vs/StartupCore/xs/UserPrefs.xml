@@ -1,5 +1,12 @@
 ﻿<Properties StartupConfiguration="{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Source Not Available">
+    <Files>
+      <File FileName="StartupCore/Bootstrap/AppContainer.cs" Line="22" Column="1" />
+      <File FileName="StartupCore/Services/General/NavigationService.cs" Line="45" Column="1" />
+      <File FileName="StartupCore/App.xaml.cs" Line="24" Column="1" />
+      <File FileName="StartupCore.Android/MainActivity.cs" Line="29" Column="1" />
+      <File FileName="Source Not Available" />
+    </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
