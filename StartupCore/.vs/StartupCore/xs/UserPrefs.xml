@@ -1,17 +1,22 @@
 ﻿<Properties StartupConfiguration="{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Source Not Available">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/obj/Debug/netstandard2.0/Templates/MenuItemTemplate.xaml.g.cs">
     <Files>
-      <File FileName="StartupCore/Bootstrap/AppContainer.cs" Line="22" Column="1" />
-      <File FileName="StartupCore/Services/General/NavigationService.cs" Line="45" Column="1" />
-      <File FileName="StartupCore/App.xaml.cs" Line="24" Column="1" />
-      <File FileName="StartupCore.Android/MainActivity.cs" Line="29" Column="1" />
+      <File FileName="StartupCore/Bootstrap/AppContainer.cs" Line="48" Column="1" />
+      <File FileName="StartupCore/Services/General/NavigationService.cs" Line="160" Column="1" />
+      <File FileName="StartupCore/App.xaml.cs" Line="22" Column="1" />
+      <File FileName="StartupCore.Android/MainActivity.cs" Line="28" Column="1" />
+      <File FileName="StartupCore/Views/MainView.xaml" Line="15" Column="20" />
+      <File FileName="StartupCore/Behaviors/EventToCommandBehavior.cs" Line="77" Column="33" />
+      <File FileName="StartupCore/Views/HomeView.xaml" Line="12" Column="1" />
+      <File FileName="StartupCore/Services/Data/AuthenticationService.cs" Line="45" Column="73" />
+      <File FileName="StartupCore/ViewModels/Base/ViewModelBase.cs" Line="1" Column="1" />
+      <File FileName="StartupCore/App.xaml" Line="174" Column="17" />
+      <File FileName="StartupCore/Converters/CountToVisibilityConverter.cs" Line="22" Column="1" />
       <File FileName="Source Not Available" />
+      <File FileName="StartupCore/ViewModels/MenuViewModel.cs" Line="23" Column="1" />
+      <File FileName="StartupCore/ViewModels/MainViewModel.cs" Line="32" Column="1" />
+      <File FileName="StartupCore/obj/Debug/netstandard2.0/Templates/MenuItemTemplate.xaml.g.cs" Line="22" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StartupCore.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FF0FA9F-427C-473D-8E05-1C4173EF1A31" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -32,6 +37,10 @@
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="133" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="102" column="1" />
       <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/ViewModels/MainViewModel.cs" relfile="StartupCore/ViewModels/MainViewModel.cs" line="32" column="27" />
+      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="160" column="1" />
+      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="167" column="1" />
+      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/General/NavigationService.cs" relfile="StartupCore/Services/General/NavigationService.cs" line="168" column="1" />
+      <Breakpoint file="/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/Services/Data/AuthenticationService.cs" relfile="StartupCore/Services/Data/AuthenticationService.cs" line="45" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

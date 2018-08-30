@@ -5,7 +5,7 @@
     x:Class="StartupCore.Views.MenuView"
     xmlns:behaviors="clr-namespace:StartupCore.Behaviors"
     xmlns:templates="clr-namespace:StartupCore.Templates"
-    Title=" ">
+    Title="Menu">
    <Grid RowSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />
@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Grid 
             Grid.Row="0">
-            <Image Source="carousel1.jpg" Aspect="AspectFill"></Image>
+           <!-- <Image Source="carousel1.jpg" Aspect="AspectFill"></Image>-->
             <Grid BackgroundColor="#444444" Opacity="0.8"/>
             <Label Text="{Binding WelcomeText}" Style="{StaticResource MenuLabelStyle}"/>
         </Grid>

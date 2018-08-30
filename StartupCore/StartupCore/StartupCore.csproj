@@ -57,6 +57,9 @@
     </Folder>
     <Folder Include="Templates\">
     </Folder>
+    <Folder Include="Converters\">
+      <DependentUpon>Converters</DependentUpon>
+    </Folder>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Constants\ApiConstants.xml" />
@@ -76,5 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Remove="Views\MainPage.xaml" />
     <EmbeddedResource Remove="Views\ItemDetailPage.xaml" />
+    <EmbeddedResource Remove="Views\MenuPage.xaml" />
+    <EmbeddedResource Remove="Views\ItemsPage.xaml" />
+    <EmbeddedResource Remove="Views\AboutPage.xaml" />
+    <EmbeddedResource Remove="Views\NewItemPage.xaml" />
   </ItemGroup>
 </Project>

@@ -3,12 +3,8 @@
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/bin/Debug/netstandard2.0/StartupCore.pdb
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Templates/MenuItemTemplate.xaml.g.cs
-/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
-/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/MainView.xaml.g.cs
-/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/MenuPage.xaml.g.cs
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/MenuView.xaml.g.cs
-/Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/RegistrationView.xaml.g.cs
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/Views/StartupNavigationPage.xaml.g.cs
 /Users/bss/Documents/INProj/XamarinTestFeature/StartupCore/StartupCore/obj/Debug/netstandard2.0/StartupCore.csproj.CoreCompileInputs.cache
