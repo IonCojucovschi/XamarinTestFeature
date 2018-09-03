@@ -177,7 +177,7 @@ namespace StartupCore.Services.General
             //_mappings.Add(typeof(LoginViewModel), typeof(LoginView));
             _mappings.Add(typeof(MainViewModel), typeof(MainView));
             _mappings.Add(typeof(MenuViewModel), typeof(MenuView));
-            //_mappings.Add(typeof(HomeViewModel), typeof(HomeView));
+            _mappings.Add(typeof(HomeViewModel), typeof(HomeView));
             //_mappings.Add(typeof(CheckoutViewModel), typeof(CheckoutView));
             //_mappings.Add(typeof(ContactViewModel), typeof(ContactView));
             //_mappings.Add(typeof(PieCatalogViewModel), typeof(PieCatalogView));
