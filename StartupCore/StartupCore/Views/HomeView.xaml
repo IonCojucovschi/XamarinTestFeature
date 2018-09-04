@@ -7,5 +7,7 @@
     x:Class="StartupCore.Views.HomeView"
     Title="Welcome" BackgroundColor="Teal"
     x:Name="HomeViewPage">
-  <Label Text="Salutatre din HomeView" TextColor="Blue" VerticalOptions="Fill" HorizontalOptions="Fill"/>
+    <Label Text="© 2018 Bethany's Pie Shop" 
+           HorizontalOptions="Center" 
+           VerticalOptions="Center"></Label>
 </ContentPage>

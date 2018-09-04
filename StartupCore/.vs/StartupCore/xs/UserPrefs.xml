@@ -1,22 +1,12 @@
 ﻿<Properties StartupConfiguration="{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StartupCore/ViewModels/Base/ViewModelBase.cs">
     <Files>
-      <File FileName="StartupCore/Bootstrap/AppContainer.cs" Line="48" Column="1" />
-      <File FileName="StartupCore/Services/General/NavigationService.cs" Line="145" Column="1" />
+      <File FileName="StartupCore/Views/MenuView.xaml" Line="37" Column="1" />
+      <File FileName="StartupCore/Services/General/NavigationService.cs" Line="181" Column="29" />
       <File FileName="StartupCore/App.xaml.cs" Line="22" Column="1" />
-      <File FileName="StartupCore.Android/MainActivity.cs" Line="28" Column="1" />
       <File FileName="StartupCore/Views/MainView.xaml" Line="15" Column="20" />
-      <File FileName="StartupCore/Behaviors/EventToCommandBehavior.cs" Line="77" Column="33" />
-      <File FileName="StartupCore/Views/HomeView.xaml" Line="12" Column="1" />
-      <File FileName="StartupCore/Services/Data/AuthenticationService.cs" Line="45" Column="1" />
-      <File FileName="StartupCore/ViewModels/Base/ViewModelBase.cs" Line="1" Column="1" />
-      <File FileName="StartupCore/App.xaml" Line="180" Column="15" />
-      <File FileName="StartupCore/Converters/CountToVisibilityConverter.cs" Line="22" Column="1" />
-      <File FileName="StartupCore/ViewModels/MenuViewModel.cs" Line="56" Column="1" />
-      <File FileName="StartupCore/ViewModels/MainViewModel.cs" Line="32" Column="1" />
-      <File FileName="StartupCore/Converters/MenuIconConverter.cs" Line="33" Column="2" />
-      <File FileName="StartupCore/Templates/MenuItemTemplate.xaml" Line="19" Column="15" />
-      <File FileName="StartupCore/ViewModels/HomeViewModel.cs" Line="1" Column="1" />
+      <File FileName="StartupCore/ViewModels/HomeViewModel.cs" Line="14" Column="47" />
+      <File FileName="StartupCore/ViewModels/Base/ViewModelBase.cs" Line="41" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StartupCore.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FF0FA9F-427C-473D-8E05-1C4173EF1A31" />
@@ -28,6 +18,6 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.StartupCore.Android PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.StartupCore.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MultiItemStartupConfigurations />
 </Properties>
